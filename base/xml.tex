@@ -1,0 +1,32 @@
+\usepackage{listings, color}
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstloadlanguages{XML}
+
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s][\color{orange}]{<!--}{-->},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type}
+}
+
+\lstdefinestyle{listXML}{language=XML, extendedchars=true,  belowcaptionskip=5pt, xleftmargin=1.8em, xrightmargin=0.5em, numbers=left, numberstyle=\small\ttfamily\bf, frame=single, breaklines=true, breakatwhitespace=true, breakindent=0pt, emph={}, emphstyle=\color{red}, basicstyle=\small\ttfamily, columns=fullflexible, showstringspaces=false, commentstyle=\color{gray}\upshape,
+morestring=[b]",
+morecomment=[s]{<?}{?>},
+morecomment=[s][\color{orange}]{<!--}{-->},
+keywordstyle=\color{cyan},
+stringstyle=\color{black},
+tagstyle=\color{darkblue},
+morekeywords={xmlns,version,type}
+}
+\lstnewenvironment{XmlStyle}[2]{
+\lstset{caption=#1,label=#2,style=XmlStyle}
+}{}
