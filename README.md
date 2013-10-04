@@ -1,4 +1,4 @@
-MS-Project-Thesis
+BS-Project-Thesis
 =================
 
 My Master Project Thesis
