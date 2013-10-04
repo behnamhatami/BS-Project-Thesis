@@ -1,4 +1,4 @@
 BS-Project-Thesis
 =================
 
-My Master Project Thesis
+My Bachelor Project Thesis
