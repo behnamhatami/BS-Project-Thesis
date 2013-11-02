@@ -1,5 +1,8 @@
 
-\usepackage[colorlinks,linkcolor=black,citecolor=black]{hyperref}
+\usepackage[pagebackref,colorlinks,citecolor=blue,linkcolor=black]{hyperref}    
+\usepackage{amsthm}
+\usepackage{subfig}
+\usepackage[font=small,labelfont=bf]{caption}
 \usepackage{setspace}	\onehalfspacing
 \usepackage{graphicx,fancyhdr}
 \usepackage{amssymb,amsmath}
@@ -8,8 +11,11 @@
 \usepackage{./base/sty/algorithm}
 \usepackage{./base/sty/algorithmicx}
 \usepackage[noend]{./base/sty/algpseudocode}
-\usepackage[margin=4cm]{geometry}
+
 \usepackage{newfloat}
+\usepackage{footmisc} % enabling footnotes.
+
+\usepackage[top=3cm,right=3cm,bottom=2.5cm,left=2.5cm]{geometry}   
 
 \usepackage{xepersian}
 
@@ -67,7 +73,7 @@
 
 % -------------------- Commands --------------------
 
-\defpersianfont\sayeh[Scale=1.1]{XB Kayhan Pook}
+\defpersianfont\sayeh[Scale=1.3]{XB Kayhan Pook}
 
 \deflatinfont \EnglishAbstractFont[Scale=1.25]{Times New Roman}
 
@@ -78,9 +84,9 @@
 
 \newcommand{\کج}{\emph}
 \newcommand{\مهم}{\textbf}
+\newcommand{\لر}[1]{\lr{#1}}
 \newcommand{\خیلی‌مهم}[1]{\emph{\textbf{#1}}}
-
-\newcommand{\زیرنوشت}[1]{\footnote{\lr{#1}}}
+\newcommand{\زیرنوشت}[1]{\LTRfootnote{#1}}
 
 \newcommand{\پی}[1]{$P$}
 \newcommand{\ان‌پی}[1]{$NP$}
@@ -107,8 +113,4 @@ $#1$-ارضا‌پذیری
 
 % -------------------- Text Format --------------------
 
-\setlength{\parskip}{0.5em}
-
 \linespread{1.75}
-
-

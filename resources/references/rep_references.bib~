@@ -35,26 +35,7 @@
 @Article{Eclipse-plugin,
 	author = {A. Bolour},
 	title = {Notes on the Eclipse Plug-in Architecture},
-	journal = {http://www.eclipse.org/articles/Article-Plug-in-architecture/plugin\_architecture.html (accessed in Sun, 03 Nov 2013 07:54:17 GMT)},
-	yaer = {2003}
-}
-
-@Article{Search-in-cloud,
-	title = {Search In The Cloud},
-	journal = {www.ektron.com/Blogs/Udaiappa-Ramachandran/Search-In-The-Cloud/ (accessed in Sat, 02 Nov 2013 07:35:48 GMT)}
-}
-
-@Article{Googlebot,
-	title = {Web crawlers. Googlebot},
-	journal = {http://www.milkaddict.com/web-crawlers-googlebot/ (accessed in Sat, 02 Nov 2013 07:42:27 GMT)}
-}
-
-@Article{Text-search,
-	title = {Realtime full-text search},
-	journal = {http://blog.andreamostosi.name/tag/solr/ (accessed in Sat, 02 Nov 2013 07:48:26 GMT)}
-}
-
-@Article{Factory-method,
-	title = {What is the factory method pattern},
-	journal = {http://blog.fossmo.net/post/What-is-the-factory-method-pattern.aspx (accessed in Sat, 02 Nov 2013 07:52:18 GMT)}
+	yaer = {2003},
+	journal = {http://www.eclipse.org/articles/Article-Plug-in-
+architecture/plugin_architecture.html (accessed: Auguest 1, 2013)}
 }
